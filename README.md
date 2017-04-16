@@ -11,6 +11,6 @@ $ npm install
 $ npm start
 ```
 
-See an [online example]():
+See an [online example](http://ipluser.github.io/react-pure-component-example/):
 
 ![screenshots](screenshots.gif)

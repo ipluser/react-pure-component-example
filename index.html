@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <title>React PureComponent Example</title>
+  <link href="static/css/main.f657c558.css" rel="stylesheet">
+</head>
+<body>
+<div id="app">
+  <div id="produceConsole"></div>
+  <div class="visual">
+    <div class="visual__app"><h3 class="visual__title">Component Or Function</h3>
+      <table class="visual__profile">
+        <thead>
+        <tr>
+          <th class="visual__label">Component</th>
+          <th class="visual__label">render times</th>
+          <th class="visual__label">Component</th>
+          <th class="visual__label">render times</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="visual__label">App</td>
+          <td class="visual__value" id="normalApp">0</td>
+          <td class="visual__label">Subject</td>
+          <td class="visual__value" id="normalSubject">0</td>
+        </tr>
+        <tr>
+          <td class="visual__label">Teacher</td>
+          <td class="visual__value" id="normalTeacher">0</td>
+          <td class="visual__label">StudentList</td>
+          <td class="visual__value" id="normalStudentList">0</td>
+        </tr>
+        <tr>
+          <td class="visual__label">Student</td>
+          <td class="visual__value" id="normalStudent">0</td>
+          <td class="visual__label">Pair</td>
+          <td class="visual__value" id="normalPair">0</td>
+        </tr>
+        <tr>
+          <td class="visual__label">total</td>
+          <td class="visual__value" id="normalTotal" colspan="3">0</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="visual__pure-app"><h3 class="visual__title">PureComponent</h3>
+      <table class="visual__profile">
+        <thead>
+        <tr>
+          <th class="visual__label">Component</th>
+          <th class="visual__label">render times</th>
+          <th class="visual__label">Component</th>
+          <th class="visual__label">render times</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="visual__label">App</td>
+          <td class="visual__value" id="pureApp">0</td>
+          <td class="visual__label">Subject</td>
+          <td class="visual__value" id="pureSubject">0</td>
+        </tr>
+        <tr>
+          <td class="visual__label">Teacher</td>
+          <td class="visual__value" id="pureTeacher">0</td>
+          <td class="visual__label">StudentList</td>
+          <td class="visual__value" id="pureStudentList">0</td>
+        </tr>
+        <tr>
+          <td class="visual__label">Student</td>
+          <td class="visual__value" id="pureStudent">0</td>
+          <td class="visual__label">Pair</td>
+          <td class="visual__value" id="purePair">0</td>
+        </tr>
+        <tr>
+          <td class="visual__label">total</td>
+          <td class="visual__value" id="pureTotal" colspan="3">0</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div id="view"></div>
+</div>
+
+<script type="text/javascript" src="static/js/react.min.js"></script>
+<script type="text/javascript" src="static/js/react-dom.min.js"></script>
+<script type="text/javascript" src="static/js/main.fc57cda7.js"></script>
+</body>
+</html>
