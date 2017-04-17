@@ -1,6 +1,7 @@
 .idea
 *.log
 node_modules
+build
 
 ### OSX template
 .DS_Store

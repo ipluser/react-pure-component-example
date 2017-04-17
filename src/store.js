@@ -49,7 +49,7 @@ const newStudent = () => ({
 })
 
 const newSubject = () => {
-  const len = random(4)
+  const len = random(1, 4)
   const students = []
 
   for (let i = 0; i < len; i += 1) {
@@ -68,17 +68,10 @@ const changeStudent = (state) => {
     subjects,
   } = state
 
-  let subjectIndex
-  let subject
-  let studentsLen
+  const subjectIndex = random(subjects.length - 1)
+  const subject = subjects[subjectIndex]
 
-  while (!studentsLen) {
-    subjectIndex = random(subjects.length - 1)
-    subject = subjects[subjectIndex]
-
-    studentsLen = subject.students.length
-  }
-
+  const studentsLen = subject.students.length
   const studentIndex = random(studentsLen - 1)
   const students = subject.students
   const student = students[studentIndex]
